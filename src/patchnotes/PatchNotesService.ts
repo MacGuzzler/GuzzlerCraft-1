@@ -187,7 +187,7 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "Rune Strike now applies Sunder Armor to the target",
               explanation:
-                "Sunder armor is one of the most important debuffs for physical damage players, but options to provide it are limited. If you do not have a protection warrior, basically you either force a fury warrior to sacrifice a decent amount of dps to stack it up or you don't have it all",
+                "Sunder armor is one of the most important debuffs for physical damage players, but options to provide it are limited and outside of protection warriors come with heavy downsides",
             },
             {
               text: "Death Strike (Rank 5) now deals 85% weapon damage, up from 75%",
@@ -196,7 +196,7 @@ function PatchNotes(): ChangeCategory[] {
             },
             {
               text: "Anticipation has switched places with Black Ice in the talent tree",
-              explanation: "",
+              explanation: "This makes frost the tank synergy tree and unholy the dps synergy tree",
             },
           ],
         },
@@ -225,11 +225,11 @@ function PatchNotes(): ChangeCategory[] {
           changes: [
             {
               text: "Icy Talons is now a tier 2 talent, up from a tier 3 talent",
-              explanation: "",
+              explanation: "To give frost dps a way to progress points in level 2 with the removal of Black Ice from the tier",
             },
             {
               text: "Improved Icy Talons is now a tier 5 talent, up from a tier 6 talent",
-              explanation: "",
+              explanation: "You can now pick this talent up as other specs if you forsake the final point of your tree",
             },
           ],
         },
@@ -428,7 +428,7 @@ function PatchNotes(): ChangeCategory[] {
           changes: [
             {
               text: "Glyph of Shadow Word Pain now gives total mana instead of base mana",
-              explanation: "",
+              explanation: "To make this an interesting mana regeneration choice",
             },
           ],
         },
