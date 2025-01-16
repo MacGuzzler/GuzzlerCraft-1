@@ -33,5 +33,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           target_branch: gh-pages
-          source_dir: ./dist  # Adjust to the correct directory containing the built files
+          source_dir: ./dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
