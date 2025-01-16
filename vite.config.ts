@@ -5,4 +5,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   plugins: [vue()],
   base: '/GuzzlerCraft-1/',
+  build: {
+    outDir: 'dist',
+  },
 });
