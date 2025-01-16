@@ -2,7 +2,7 @@
   <div>
     <div class="patch-notes">
       <div class="patch-note">
-        <h1>Changes</h1>
+        <h1>Change List</h1>
         <div v-for="category in categories" :key="category.title">
           <ChangeCategoryComponent :category="category"/>
         </div>
