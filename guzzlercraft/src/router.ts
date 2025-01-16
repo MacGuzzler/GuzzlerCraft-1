@@ -8,7 +8,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory("/GuzzlerCraft-1/"),
+  history: createWebHistory("/GuzzlerCraft-1/guzzlercraft/"),
   routes,
 });
 
