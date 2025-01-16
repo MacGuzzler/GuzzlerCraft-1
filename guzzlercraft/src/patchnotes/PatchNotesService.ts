@@ -1,4 +1,4 @@
-import { ChangeCategory } from "./Change";
+import type { ChangeCategory } from "./Change";
 
 function PatchNotes(): ChangeCategory[] {
   var result: ChangeCategory[];

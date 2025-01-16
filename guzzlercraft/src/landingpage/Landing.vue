@@ -44,7 +44,7 @@ export default defineComponent({
 
 <style>
 .wotlk-container {
-    background: url("../../../../../public/img/wotlk/wotlk-background.png.bmp") no-repeat center center fixed;
+    background: url("../../public/img/wotlk/wotlk-background.png.bmp") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     font-family: "Friz Quadrata", sans-serif;

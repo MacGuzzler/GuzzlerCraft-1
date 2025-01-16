@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
-import { ChangeCategory } from './Change';
+import type { ChangeCategory } from './Change';
 import GetPatchNotes from './PatchNotesService';
 import ChangeCategoryComponent from './ChangeCategoryComponent.vue';
 
