@@ -451,7 +451,8 @@ function PatchNotes(): ChangeCategory[] {
             },
           ],
         },
-        { title: "Shadow", typeName: "priest", changes: [] },
+        { title: "Shadow", typeName: "priest", changes: [
+          {text:"Shadowform now increases damage done and decreases damage taken by 20% up from 15%", explanation:""}] },
       ],
       changes: [],
     },
@@ -527,7 +528,10 @@ function PatchNotes(): ChangeCategory[] {
           typeName: "warlock",
           changes: [],
         },
-        { title: "Destruction", typeName: "warlock", changes: [] },
+        { title: "Destruction", typeName: "warlock", changes: [{
+          text: "Empowered Imp now also increases your imp's critical strike chance by 5/10/15%",
+          explanation: "",
+        }] },
       ],
       changes: [],
     },
