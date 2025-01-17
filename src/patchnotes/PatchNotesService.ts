@@ -282,7 +282,11 @@ function PatchNotes(): ChangeCategory[] {
       title: "Hunter",
       typeName: "hunter",
       innerCategories: [
-        { title: "General", typeName: "hunter", changes: [] },
+        { title: "General", typeName: "hunter", changes: [
+          {
+          text: "New Spell: Explosive Arrow. Launches an explosive trap at the target location",
+          explanation: "",
+          },] },
         {
           title: "Beast Mastery",
           typeName: "hunter",
