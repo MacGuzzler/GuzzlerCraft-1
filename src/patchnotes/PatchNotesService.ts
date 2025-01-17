@@ -152,6 +152,10 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
+              text: "Kirin Tor signets are now 2000 gold instead of 8500",
+              explanation: "2000 gold is still cost prohibiton but within plausibility for a small realm",
+            },
+            {
               text: "Dual spec now costs 250 gold down from 1000 gold",
               explanation: "",
             },
