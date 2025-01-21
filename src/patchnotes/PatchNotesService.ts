@@ -570,7 +570,17 @@ function PatchNotes(): ChangeCategory[] {
         {
           title: "Fury",
           typeName: "warrior",
-          changes: [],
+          changes: 
+          [
+            {
+            text: "Improved Demoralizing Shout and Commanding Presense are now combined into the same talent in the same location as Improved Demoralizing Shout",
+            explanation: "",
+            },
+            {
+              text: "Improved Cleave is now a 1 point talent that increases damage done by Cleave by 10%, and increases bonus damage of Cleave by an additional 40%",
+              explanation: "",
+              },
+          ],
         },
         {
           title: "Protection",
