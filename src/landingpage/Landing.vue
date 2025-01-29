@@ -59,7 +59,7 @@ export default defineComponent({
     const submitResult = ref("");
 
     const registerUser = async () => {
-      fetch('http://111.111.1.1:3000/save-account', {
+      fetch('http://111.111.1.1:3000/register-account', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
@@ -77,6 +77,7 @@ export default defineComponent({
     return {
       username,
       password,
+      submitResult,
       registerUser,
     };
   },
