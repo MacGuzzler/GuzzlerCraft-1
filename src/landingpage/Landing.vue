@@ -13,9 +13,23 @@
           download
           className="download-link"
         >
-          Download Patch File
+          Patch File Coming Soon
         </a>
         <p>Place downloaded file in the Data folder of your WOTLK directory</p>
+      </div>
+      <div class="form-container">
+        <form @submit.prevent="registerUser">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" v-model="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" v-model="password" required />
+          </div>
+          <button type="submit" class="register-button">Register</button>
+          <p v-if="submitResult" class="error">{{ submitResult }}</p>
+        </form>
       </div>
       <main className="wotlk-content">
         <p className="wotlk-intro">
@@ -29,7 +43,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import { downloadPatchFile } from "../downloads/PatchfileService";
 import ChangeList from "../patchnotes/ChangeList.vue";
 
@@ -38,7 +52,34 @@ export default defineComponent({
   components: { ChangeList },
   methods:{
     downloadPatch(){downloadPatchFile()}
-  }
+  },
+  setup() {
+    const username = ref("");
+    const password = ref("");
+    const submitResult = ref("");
+
+    const registerUser = async () => {
+      fetch('http://111.111.1.1:3000/save-account', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+    body: JSON.stringify({
+        username: username,
+        password: password
+    })
+})
+.then(response => response.json())
+.then(data => {console.log('Success:', data); submitResult.value = "Registered"})
+.catch(error => {console.error('Error:', error); submitResult.value = error.response?.data?.error || "Something went wrong."; });
+    };
+
+    return {
+      username,
+      password,
+      registerUser,
+    };
+  },
 });
 </script>
 
@@ -118,4 +159,25 @@ export default defineComponent({
     font-size: 1.2rem;
     line-height: 1.6;
   }
+
+  .form-container {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 </style>

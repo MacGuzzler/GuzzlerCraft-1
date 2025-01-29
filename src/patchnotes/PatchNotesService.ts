@@ -37,6 +37,16 @@ function PatchNotes(): ChangeCategory[] {
               explanation:
                 "If you are under 80% capacity, you get a buff to make your total damage output roughly equal to what 80% capacity would be",
             },
+            {
+              text: "Entering a raid no longer requires being in a raid group",
+              explanation:
+                "",
+            },
+            {
+              text: "The number of instances an account can enter per hour increased to 10 up from 5",
+              explanation:
+                "",
+            },
           ],
         },
         {
