@@ -27,7 +27,7 @@
             <label for="password">Password:</label>
             <input type="password" id="password" v-model="password" required />
           </div>
-          <button type="submit" class="register-button">Register (NYI)</button>
+          <button type="submit" class="register-button">Register</button>
           <p v-if="submitResult" class="error">{{ submitResult }}</p>
         </form>
       </div>
@@ -59,7 +59,7 @@ export default defineComponent({
     const submitResult = ref("");
 
     const registerUser = async () => {
-      fetch('http://111.111.1.1:3000/register-account', {
+      fetch('https://guzzler-registration.guzzlerdevelopment.workers.dev:3000/register-account', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
