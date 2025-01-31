@@ -64,7 +64,7 @@ export default defineComponent({
     const submitResult = ref("");
 
     const registerUser = async () => {
-      fetch('https://guzzler-registration.guzzlerdevelopment.workers.dev/create-account', {
+      fetch('https://guzzler-registration.guzzlerdevelopment.workers.dev/', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
