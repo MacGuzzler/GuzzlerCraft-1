@@ -20,6 +20,10 @@
       <div class="form-container">
         <form @submit.prevent="registerUser">
           <div class="form-group">
+            <label for="person">Person:</label>
+            <input type="text" id="person" v-model="person" required />
+          </div>
+          <div class="form-group">
             <label for="username">Username:</label>
             <input type="text" id="username" v-model="username" required />
           </div>
@@ -54,6 +58,7 @@ export default defineComponent({
     downloadPatch(){downloadPatchFile()}
   },
   setup() {
+    const person = ref("");
     const username = ref("");
     const password = ref("");
     const submitResult = ref("");
@@ -65,6 +70,7 @@ export default defineComponent({
         'Content-Type': 'application/json'
         },
     body: JSON.stringify({
+        person: person.value,
         username: username.value,
         password: password.value
     })
@@ -75,6 +81,7 @@ export default defineComponent({
     };
 
     return {
+      person,
       username,
       password,
       submitResult,
