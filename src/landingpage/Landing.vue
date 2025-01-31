@@ -75,8 +75,7 @@ export default defineComponent({
         password: password.value
     })
 })
-.then(response => response.json())
-.then(data => {console.log('Success:', data); submitResult.value = "Registered"})
+.then(data => {console.log('Success:'); submitResult.value = "Registered"})
 .catch(error => {console.error('Error:', error); submitResult.value = error.response?.data?.error || "Something went wrong."; });
     };
 
