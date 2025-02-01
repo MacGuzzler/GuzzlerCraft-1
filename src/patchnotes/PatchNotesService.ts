@@ -101,7 +101,10 @@ function PatchNotes(): ChangeCategory[] {
           title: "Drop Rates",
           typeName: "droprates",
           changes: [
-            { text: "Money drop rate increased by 10%", explanation: "" },
+            { text: "Money drop rate increased by 20%", explanation: "" },
+            { text: "Gray quality items now vender for 30% more money", explanation: "" },
+            { text: "Blue quality items now vender for 20% more money", explanation: "" },
+            { text: "Epic quality items now vender for 20% more money", explanation: "" },
             {
               text: "Drop rate of Uncommon (green) items increased by 20%",
               explanation: "",
