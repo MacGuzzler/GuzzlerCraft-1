@@ -29,7 +29,7 @@
           </div>
           <div class="form-group">
             <label for="password">Password:</label>
-            <input type="password" id="password" v-model="password" required />
+            <input type="password" id="password" v-model="password" required maxlength="16"/>
           </div>
           <button type="submit" class="register-button">Register</button>
           <p v-if="submitResult" class="error">{{ submitResult }}</p>
