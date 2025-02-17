@@ -1,5 +1,5 @@
 const PATCH_FILE_URL =
-  "src\\classicwow\\wotlk\\myserver\\downloads\\patch-4.MPQ";
+  "./patch-4.MPQ";
 export function downloadPatchFile(): string[] {
   downloadFile(PATCH_FILE_URL, "patch-4.MPQ");
   return [PATCH_FILE_URL, "patch-4.MPQ"];
