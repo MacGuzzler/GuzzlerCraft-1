@@ -23,7 +23,10 @@ export function downloadPatchFile(): string[] {
 
 function downloadFile(url: string, filename: string) {
   fetch(url)
-    .then(response => response.blob())
+    .then(response => {
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      return response.blob();
+    })
     .then(blob => {
       const blobUrl = URL.createObjectURL(blob);
       const anchor = document.createElement("a");

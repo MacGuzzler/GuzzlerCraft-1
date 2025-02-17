@@ -8,8 +8,8 @@
         <h2 className="realm-info-title">Realm Info</h2>
         <p>Realmlist: Coming soon</p>
         <a
-          href=""
-          @click="downloadPatch"
+          href="#"
+          @click.prevent="downloadPatch"
           download
           className="download-link"
         >
