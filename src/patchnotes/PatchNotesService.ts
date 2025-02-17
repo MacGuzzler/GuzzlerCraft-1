@@ -177,7 +177,7 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
-              text: "Booty Bay Arena grandmaster now only takes 2 trinkets, down from 12",
+              text: "Booty Bay Arena Grandmaster now only takes 2 trinkets, down from 12",
               explanation: "",
             },
             {
