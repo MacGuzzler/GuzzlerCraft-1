@@ -14,7 +14,7 @@
 //   document.body.removeChild(anchor);
 // }
 
-const PATCH_FILE_URL = "/patch/patch-4.MPQ"; // Ensure the file is in the `public` folder
+const PATCH_FILE_URL = "https://macguzzler.github.io/GuzzlerCraft-1/patch/patch-4.MPQ"; // Ensure the file is in the `public` folder
 
 export function downloadPatchFile(): string[] {
   downloadFile(PATCH_FILE_URL, "patch-4.MPQ");

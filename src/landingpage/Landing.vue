@@ -7,15 +7,14 @@
       <div className="realm-info-box">
         <h2 className="realm-info-title">Realm Info</h2>
         <p>Realmlist: Coming soon</p>
-        <!-- <a
+        <a
           href="#"
           @click.prevent="downloadPatch"
           download
           className="download-link"
         >
           Patch File
-        </a> -->
-        <a href="/patch/patch-4.MPQ" download>Download Patch</a>
+        </a>
         <p>Place downloaded file in the Data folder of your WOTLK directory</p>
       </div>
       <div class="form-container">
