@@ -590,6 +590,10 @@ function PatchNotes(): ChangeCategory[] {
             explanation: "",
             },
             {
+              text: "New Talent: Victorious Momentum. Increases the damage of Victory Rush by 5/10/15/20/25%",
+              explanation: "",
+              },
+            {
               text: "Improved Cleave is now a 1 point talent that increases damage done by Cleave by 10%, and increases bonus damage of Cleave by an additional 40%",
               explanation: "",
               },
