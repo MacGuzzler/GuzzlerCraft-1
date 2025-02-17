@@ -578,6 +578,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Blood Frenzy now increases melee haste by 10/20% up from 5/10%",
               explanation: "",
             },
+            {
+              text: "Strength of Arms now increases Strength, Stamina, and Expertise by 4/8% up from 2/4%",
+              explanation: "",
+            },
           ],
         },
         {
