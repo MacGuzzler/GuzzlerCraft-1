@@ -486,7 +486,7 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "To make this an interesting mana regeneration choice",
             },
             {
-              text: "Holy Fire max rank now also increases the magic damage the target takes by 13% for 30 seconds",
+              text: "Holy Fire now also increases the magic damage the target takes by 13% for 30 seconds",
               explanation: "",
             },
           ],
