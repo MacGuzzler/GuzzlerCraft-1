@@ -317,7 +317,12 @@ function PatchNotes(): ChangeCategory[] {
         {
           title: "Marksmanship",
           typeName: "hunter",
-          changes: [],
+          changes: [
+          {
+            text: "Aimed Shot now also increases physical damage taken by 4%",
+            explanation: "",
+          },
+        ],
         },
         { title: "Survival", typeName: "hunter", changes: [] },
       ],
@@ -340,12 +345,21 @@ function PatchNotes(): ChangeCategory[] {
               text: "Mind Mastery now increases spell power by 4/8/12/16/20% of intellect up from 3/6/9/12/15%",
               explanation: "",
             },
+            {
+              text: "Arcane Potency now grants Replenishment",
+              explanation: "",
+            },
           ],
         },
         {
           title: "Fire",
           typeName: "mage",
-          changes: [],
+          changes: [
+            {
+              text: "Empowered Fire now grants Replenishment",
+              explanation: "",
+            },
+          ],
         },
         {
           title: "Frost",
@@ -365,6 +379,14 @@ function PatchNotes(): ChangeCategory[] {
             },
             {
               text: "Fingers of Frost is now a 10/20% proc chance up from 7/15%",
+              explanation: "",
+            },
+            {
+              text: "Ice Lance now scales with 24% spell power up from 14%",
+              explanation: "",
+            },
+            {
+              text: "Ice Lance base damage increased to 180/221/520 up from 160/181/220",
               explanation: "",
             },
           ],
@@ -434,6 +456,18 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             { text: "Divine Storm now deals Holy damage", explanation: "" },
+            {
+              text: "Swift Retribution now also increases your haste by 3/6/9% at all times",
+              explanation: "",
+            },
+            {
+              text: "Crusader Strike now deals 100% weapon damage up from 75%",
+              explanation: "",
+            },
+            {
+              text: "Sanctified Retribution now also increases Strength by 10%",
+              explanation: "",
+            },
           ],
         },
       ],
@@ -450,6 +484,10 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "Glyph of Shadow Word Pain now gives total mana instead of base mana",
               explanation: "To make this an interesting mana regeneration choice",
+            },
+            {
+              text: "Holy Fire max rank now also increases the magic damage the target takes by 13% for 30 seconds",
+              explanation: "",
             },
           ],
         },
@@ -523,7 +561,20 @@ function PatchNotes(): ChangeCategory[] {
         {
           title: "Elemental",
           typeName: "shaman",
-          changes: [],
+          changes: [
+          {
+            text: "Unrelenting Storm now increases mana regen by 7/14/20% of Intellect up from 4/8/12%",
+            explanation: "",
+          },
+          {
+            text: "Unrelenting Storm now increases spell power by 7/14/20% of Intellect",
+            explanation: "",
+          },
+          {
+            text: "Totem of Wrath now also gives 3% chance to be hit by spells",
+            explanation: "",
+          },
+        ],
         },
         {
           title: "Enhancement",
@@ -582,6 +633,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Strength of Arms now increases Strength, Stamina, and Expertise by 4/8% up from 2/4%",
               explanation: "",
             },
+            {
+              text: "Trauma is now in the second row of the Arms tree",
+              explanation: "",
+            },
           ],
         },
         {
@@ -596,11 +651,15 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "New Talent: Victorious Momentum. Increases the damage of Victory Rush by 5/10/15/20/25%",
               explanation: "",
-              },
+            },
             {
               text: "Improved Cleave is now a 1 point talent that increases damage done by Cleave by 10%, and increases bonus damage of Cleave by an additional 40%",
               explanation: "",
-              },
+            },
+            {
+              text: "Titan's Grip no longer has a damage penalty",
+              explanation: "",
+            },
           ],
         },
         {
