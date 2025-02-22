@@ -70,6 +70,18 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
+              text: "New enchanting recipe for +10 all stats to chest at a significant discount. Only available to the enchanter's items",
+              explanation: "Similar to tailoring and leatherworking getting cheap leg enchants",
+            },
+            {
+              text: "Disenchanting can now give skillups until level 300, up from 60",
+              explanation: "",
+            },
+            {
+              text: "New Enchant: 25 spellpower to boots",
+              explanation: "",
+            },
+            {
               text: "Milling and Prospecting can now grant skill points (like disenchanting does)",
               explanation: "",
             },
