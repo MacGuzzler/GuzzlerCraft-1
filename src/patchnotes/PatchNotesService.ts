@@ -134,6 +134,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Experience to gold conversion for completing quests at max level increased by 10%",
               explanation: "",
             },
+            {
+              text: "Black Pearl and Golden Pearl drop rates increased",
+              explanation: "",
+            },
           ],
         },
         {
