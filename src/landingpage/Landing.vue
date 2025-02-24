@@ -16,6 +16,15 @@
           Patch File
         </a>
         <p>Place downloaded file in the Data folder of your WOTLK directory</p>
+        <h2 className="realm-info-title">Addons</h2>
+        <a
+          href="#"
+          @click.prevent="downloadQuestie"
+          download
+          className="download-link"
+        >
+          Questie
+        </a>
       </div>
       <div class="form-container">
         <form @submit.prevent="registerUser">
@@ -50,12 +59,13 @@
 import { defineComponent, ref } from 'vue';
 import { downloadPatchFile } from "../downloads/PatchfileService";
 import ChangeList from "../patchnotes/ChangeList.vue";
+import { downloadQuestieFile } from '../addons/AddonFileService';
 
 export default defineComponent({
   name: 'WotlkServerLandingPage',
   components: { ChangeList },
   methods:{
-    downloadPatch(){downloadPatchFile()}
+    downloadPatch(){downloadPatchFile()}, downloadQuestie(){downloadQuestieFile()}
   },
   setup() {
     const person = ref("");
