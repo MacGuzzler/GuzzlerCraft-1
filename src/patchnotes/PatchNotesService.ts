@@ -82,6 +82,14 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
+              text: "New Enchant: 20 Agility to Ring (Enchanter only)",
+              explanation: "",
+            },
+            {
+              text: "New Enchant: 20 Strength to Ring (Enchanter only)",
+              explanation: "",
+            },
+            {
               text: "Milling and Prospecting can now grant skill points (like disenchanting does)",
               explanation: "",
             },
@@ -516,6 +524,10 @@ function PatchNotes(): ChangeCategory[] {
           title: "Holy",
           typeName: "priest",
           changes: [
+            {
+              text: "Holy Specialization now also increases chance to hit with holy spells by 1/2/3/4/5%",
+              explanation: "",
+            },
             {
               text: "Searing Light now increases damage by 10/20% instead of 5/10%",
               explanation: "",
