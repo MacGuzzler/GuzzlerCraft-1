@@ -47,6 +47,11 @@ function PatchNotes(): ChangeCategory[] {
               explanation:
                 "",
             },
+            {
+              text: "Archavon the Stone Watcher now also drops 1 tier token of the slots he drops random items of",
+              explanation:
+                "",
+            }
           ],
         },
         {
@@ -466,7 +471,16 @@ function PatchNotes(): ChangeCategory[] {
         {
           title: "Protection",
           typeName: "paladin",
-          changes: [],
+          changes: [
+            {
+              text: "Sacred Duty now also increases threat by 10/20%",
+              explanation: "",
+            },
+            {
+              text: "When Shield of the Templar silences an enemy the cooldown is reduced by 5 seconds",
+              explanation: "",
+            },
+          ],
         },
         {
           title: "Retribution",
