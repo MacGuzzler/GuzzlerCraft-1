@@ -59,7 +59,7 @@ function PatchNotes(): ChangeCategory[] {
           typeName: "professions",
           changes: [
             {
-              text: "Expert rank profression now learnable at 15 down from 20",
+              text: "Expert rank profession now learnable at 15 down from 20",
               explanation: "",
             },
             {
@@ -117,7 +117,11 @@ function PatchNotes(): ChangeCategory[] {
                 "To make this scale with gear to make it worth considering as a mana sustain option",
             },
             {
-              text: "Lifeblood rank (6/5) now restore (10%/5%) maximum resource over their duration",
+              text: "Lifeblood rank (6/5) now restore (15%/10%) maximum resource over their duration",
+              explanation: "",
+            },
+            {
+              text: "Endless Health and Mana Potion now restore the same amount as Runic potions instead of Super Potions",
               explanation: "",
             },
           ],
@@ -234,6 +238,15 @@ function PatchNotes(): ChangeCategory[] {
               text: "Rune Strike now deals 200% weapon damage, up from 150%",
               explanation:
                 "Increasing the damage and threat of blood tanks in a way that dps death knights cannot take advantage of. It feels like a odd mismatch for a tank to be wielding a two handed dps weapon but not deal a lot of damage",
+            },
+            {
+              text: "Frost Prescence increases your threat by an additional 20%",
+              explanation:
+<<<<<<< HEAD
+                "",
+=======
+                "Increasing the damage and threat of blood tanks in a way that dps death knights cannot take advantage of. It feels like a odd mismatch for a tank to be wielding a two handed dps weapon but not deal a lot of damage",
+>>>>>>> 49162fb (Arcane barrage crit debuff, replenishment, endless potions, lifeblood fix, dk threat)
             },
             {
               text: "Rune Strike now applies Sunder Armor to the target",
@@ -380,7 +393,11 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
-              text: "Arcane Potency now grants Replenishment",
+              text: "Missile Barrage now grants Replenishment",
+              explanation: "",
+            },
+            {
+              text: "Arcane Barrage now applies a 5% spell crit debuff to the target for 30 seconds",
               explanation: "",
             },
           ],
