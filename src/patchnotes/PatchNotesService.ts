@@ -242,11 +242,7 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "Frost Prescence increases your threat by an additional 20%",
               explanation:
-<<<<<<< HEAD
                 "",
-=======
-                "Increasing the damage and threat of blood tanks in a way that dps death knights cannot take advantage of. It feels like a odd mismatch for a tank to be wielding a two handed dps weapon but not deal a lot of damage",
->>>>>>> 49162fb (Arcane barrage crit debuff, replenishment, endless potions, lifeblood fix, dk threat)
             },
             {
               text: "Rune Strike now applies Sunder Armor to the target",
