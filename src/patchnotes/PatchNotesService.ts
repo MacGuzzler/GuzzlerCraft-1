@@ -269,6 +269,10 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "Another buff to blood tank dps and threat",
             },
             {
+              text: "Veteran of the Third War now increases Strength by 4/8/12% up from 2/4/6% and Stamina by 2/4/6% up from 1/2/3%",
+              explanation: "",
+            },
+            {
               text: "Might of Mograine now also affects Rune Strike",
               explanation: "Shifting more power into rune strike",
             },
@@ -545,6 +549,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Holy Fire now also increases the magic damage the target takes by 13% for 30 seconds",
               explanation: "",
             },
+            {
+              text: "Prayer of Healing no longer has a group restriction",
+              explanation: "",
+            },
           ],
         },
         {
@@ -616,6 +624,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Max rank Lightning Bolt base damage increased by 10%, spell power scaling increased by 5%",
               explanation: "",
             },
+            {
+              text: "Cleansing Totem no longer has a group requirement",
+              explanation: "",
+            },
           ],
         },
         {
@@ -641,7 +653,13 @@ function PatchNotes(): ChangeCategory[] {
           typeName: "shaman",
           changes: [],
         },
-        { title: "Restoration", typeName: "shaman", changes: [] },
+        { title: "Restoration", typeName: "shaman", changes:
+          [
+            {
+              text: "Mana Tide Totem no longer has a group requirement",
+              explanation: "",
+            },
+          ] },
       ],
       changes: [],
     },
@@ -726,6 +744,10 @@ function PatchNotes(): ChangeCategory[] {
           title: "Protection",
           typeName: "warrior",
           changes: [
+            {
+              text: "Defensive Stance gives another 20% threat reduction",
+              explanation: "",
+            },
             {
               text: "Vitality now increases Stamina by 4/8/12% up from 3/6/9%",
               explanation: "",
