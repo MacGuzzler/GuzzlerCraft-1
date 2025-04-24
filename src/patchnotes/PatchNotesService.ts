@@ -29,6 +29,21 @@ function PatchNotes(): ChangeCategory[] {
           ],
         },
         {
+          title: "Achievements",
+          typeName: "achievements",
+          changes:
+          [
+            {
+              text: "Glory to the Raider 10 man now awards the Plagued Proto-Drake",
+              explanation: "",
+            },
+            {
+              text: "Glory to the Raider 25 man now awards the Black Proto-Drake",
+              explanation: "",
+            },
+          ],
+        },
+        {
           title: "Dungeons and Raids",
           typeName: "",
           changes: [
@@ -49,6 +64,11 @@ function PatchNotes(): ChangeCategory[] {
             },
             {
               text: "Archavon the Stone Watcher now also drops 1 tier token of the slots he drops random items of",
+              explanation:
+                "",
+            },
+            {
+              text: "Emalon the Storm Watcher now also drops 1 tier token of the slots he drops random items of",
               explanation:
                 "",
             }
@@ -124,6 +144,25 @@ function PatchNotes(): ChangeCategory[] {
               text: "Endless Health and Mana Potion now restore the same amount as Runic potions instead of Super Potions",
               explanation: "",
             },
+          ],
+        },
+        {
+          title: "Items",
+          typeName: "items",
+          changes:
+          [
+            {
+              text: "Val'Anyr the Hammer of Ancient Kings now incrases healing spell power by 200 while the proc is active",
+              explanation: "",
+            },
+            {
+              text: "Sul'Thraze the Lasher is now a 3.8 speed weapon",
+              explanation: "",
+            },
+            {
+              text: "The Death Knight Tank Tier 8 4 piece bonus now causes you to gain 30% damage reduction for 5 seconds",
+              explanation: "",
+            }
           ],
         },
         {
@@ -410,6 +449,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Empowered Fire now grants Replenishment",
               explanation: "",
             },
+            {
+              text: "Pyromaniac also increases the damage of your party and raid by 1/2/3%",
+              explanation: "",
+            }
           ],
         },
         {
