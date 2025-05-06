@@ -261,9 +261,161 @@ function PatchNotes(): ChangeCategory[] {
               text: "Reputation gains are doubled",
               explanation: "",
             },
+            {
+              text: "Destroy Egg in Blackwing Lair is now a 1 second cast with a 2 second Cooldown, down from 3/7",
+              explanation: "To make it more possible to solo",
+            },
+            {
+              text: "Removed Manabonk from Dalaran",
+              explanation: "",
+            },
+            {
+              text: "Kel'Thuzad 25 man now drops Staff Head of Atiesh",
+              explanation: "",
+            },
           ],
         },
       ],
+    },
+    {
+      title: "Races",
+      typeName: "races",
+      changes: [],
+      innerCategories:
+      [
+        {
+          title: "Human",
+          typeName: "human",
+          changes:
+          [
+            {
+              text: "Sword and Mace Specializations now increase Expertise by 5 up from 3",
+              explanation: "Parity with Orcs"
+            },
+            {
+              text: "The Human Spirit now increases Spirit by 5% up from 3%",
+              explanation: "This was nerfed in WOTLK and wasn't really warranted"
+            }
+          ]
+        },
+        {
+          title: "Dwarf",
+          typeName: "dwarf",
+          changes:
+          [
+            {
+              text: "Mace Specialization now increases Expertise by 10 up from 5",
+              explanation: "Total becoming parity with the races getting double weapon types being 5 each"
+            },
+            {
+              text: "Frost Resistance now reduced chance to be hit by frost spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "Stoneform now reduces damage taken by Fire and Frost by 20% while active",
+              explanation: "Thematically accurate way to increase usefullness of Stoneform in more scenarios"
+            }
+          ]
+        },
+        {
+          title: "Night Elf",
+          typeName: "nightelf",
+          changes:
+          [
+            {
+              text: "Nature Resistance now reduces chance to be hit by Nature spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "New Passive: Shrouded by Night. While Stealthed or Shadowmelded, your resource regeneration is increased by 30% and you take 30% less Area of Effect damage",
+              explanation: ""
+            }
+          ]
+        },
+        {
+          title: "Gnome",
+          typeName: "gnome",
+          changes:
+          [
+            {
+              text: "New Passive: Dagger Specialization. Increases Expertise with Daggers by 10",
+              explanation: ""
+            },
+            {
+              text: "New Passive: Energetic Capacity. Increases maximum Rage, Energy, and Runic Power by 10",
+              explanation: "Max intellect is useless on these classes -- this is thematically similar to that"
+            }
+          ]
+        },
+        {
+          title: "Draenei",
+          typeName: "draenei",
+          changes:
+          [
+            {
+              text: "Shadow Resistance now reduces chance to be hit by Shadow spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "Gift of the Naaru now also reduces the target's damage taken by 10% while active",
+              explanation: ""
+            }
+          ]
+        },
+        {
+          title: "Undead",
+          typeName: "undead",
+          changes:
+          [
+            {
+              text: "Shadow Resistance now reduces chance to be hit by Shadow spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "New Passive: Slow Embrace of Death. When you deal periodic damage, there is a 10% chance an additional 50% damage will be dealt",
+              explanation: ""
+            }
+          ]
+        },
+        {
+          title: "Tauren",
+          typeName: "tauren",
+          changes:
+          [
+            {
+              text: "Nature Resistance now reduces chance to be hit by Nature spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "New Passive: Totemic. Critical Strike Damage and Healing is increased by 5% while wielding a Mace",
+              explanation: ""
+            },
+            {
+              text: "Endurance now increases Stamina by 5% instead of base health",
+              explanation: ""
+            }
+          ]
+        },
+        {
+          title: "Blood Elf",
+          typeName: "bloodelf",
+          changes:
+          [
+            {
+              text: "Magic Resistance now reduces chance to be hit by spells by 5% up from 2%",
+              explanation: ""
+            },
+            {
+              text: "Arcane Torrent now restores 60 Energy or Runic Power, up from 15",
+              explanation: ""
+            },
+            {
+              text: "New Passive: Latent Sunwell Energy. Increases mana regeneration by 5%, and energy/rune regeneration by 10%",
+              explanation: ""
+            }
+          ]
+        }
+      ]
     },
     {
       title: "Death Knight",
@@ -418,7 +570,13 @@ function PatchNotes(): ChangeCategory[] {
       title: "Mage",
       typeName: "mage",
       innerCategories: [
-        { title: "General", typeName: "mage", changes: [] },
+        { title: "General", typeName: "mage", changes:
+          [
+            {
+              text: "Conqueror's Kirin Tor Tunic is renamed Conqueror's Kirin Tor Robe and is now a robe model",
+              explanation: "",
+            },
+          ] },
         {
           title: "Arcane",
           typeName: "mage",
