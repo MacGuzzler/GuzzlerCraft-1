@@ -71,6 +71,16 @@ function PatchNotes(): ChangeCategory[] {
               text: "Emalon the Storm Watcher now also drops 1 tier token of the slots he drops random items of",
               explanation:
                 "",
+            },
+            {
+              text: "Kologarn now drops a new item",
+              explanation:
+                "",
+            },
+            {
+              text: "Hodir now drops a new item",
+              explanation:
+                "",
             }
           ],
         },
