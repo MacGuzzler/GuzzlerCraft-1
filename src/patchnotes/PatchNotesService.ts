@@ -50,7 +50,7 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "Dungeon and Raid groups which fall far under the player capacity of the instance will receive an aura to boost their power",
               explanation:
-                "If you are under 80% capacity, you get a buff to make your total damage output roughly equal to what 80% capacity would be",
+                "If you are under 100% capacity, you get a buff to make your total damage output roughly equal to what 100% capacity would be",
             },
             {
               text: "Entering a raid no longer requires being in a raid group",
@@ -202,6 +202,10 @@ function PatchNotes(): ChangeCategory[] {
             },
             {
               text: "Black Pearl and Golden Pearl drop rates increased",
+              explanation: "",
+            },
+            {
+              text: "Book of Glyph Mastery now has a 50% chance to drop from Northrend rares",
               explanation: "",
             },
           ],
@@ -739,6 +743,10 @@ function PatchNotes(): ChangeCategory[] {
               text: "Sanctified Retribution now also increases Strength by 10%",
               explanation: "",
             },
+            {
+              text: "Vindication now also reduces the target's armor by 5%",
+              explanation: "",
+            },
           ],
         },
       ],
@@ -814,7 +822,7 @@ function PatchNotes(): ChangeCategory[] {
           typeName: "rogue",
           changes: [
             {
-              text: "New Talent - Improved Hemorrhage:  Now gain 2 energy when a charge of hemorrhage is expended",
+              text: "New Talent - Improved Hemorrhage:  Now gain between 2 and 25 energy when a charge of hemorrhage is expended, depending on group size",
               explanation: "",
             },
             { text: "Hemorrhage max rank now has 40 charges", explanation: "" },
