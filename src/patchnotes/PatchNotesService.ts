@@ -129,6 +129,10 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
+              text: "Darmoon Card of the North: Crafting now requires 3 Ink of the Sea, 2 Snowfall ink, and 5 Parchment",
+              explanation: "",
+            },
+            {
               text: "Flask of Stoneblood now increases Stamina by 110 instead of Health by 1300",
               explanation: "",
             },
