@@ -133,6 +133,10 @@ function PatchNotes(): ChangeCategory[] {
               explanation: "",
             },
             {
+              text: "Book of Glyph Mastery can now teach Glyph of Feline Focus",
+              explanation: ""
+            },
+            {
               text: "Flask of Stoneblood now increases Stamina by 110 instead of Health by 1300",
               explanation: "",
             },
@@ -518,7 +522,19 @@ function PatchNotes(): ChangeCategory[] {
       title: "Druid",
       typeName: "druid",
       innerCategories: [
-        { title: "General", typeName: "druid", changes: [] },
+        {
+          title: "General",
+          typeName: "druid",
+          changes: [
+            {
+              text: "Glyph of Growl now also increases the damage of Faerie Fire by 100%",
+              explanation: "",
+            },
+            {
+              text: "New Glyph: Glyph of Feline Focus. Faerie Fire (Feral) cast from cat form now always triggers Omen of Clarity",
+              explanation: "",
+            }
+        ] },
         {
           title: "Balance",
           typeName: "druid",
@@ -545,6 +561,14 @@ function PatchNotes(): ChangeCategory[] {
               text: "Infected Wounds is now a 1 point talent that gives the effect of the old rank 3",
               explanation: "",
             },
+            {
+              text: "New Spell: Thrash. Learned from trainer at level 78. Deals damage to all enemies in an 8 yard radius around the caster and causes them to bleed every second for 12 seconds",
+              explanation: "",
+            },
+            {
+              text: "Swipe (Rank 8) now adds 20% of the damage dealt to the remaining damage of Thrash",
+              explanation: "",
+            },
           ],
         },
         { title: "Restoration", typeName: "druid", changes: [] },
@@ -555,11 +579,18 @@ function PatchNotes(): ChangeCategory[] {
       title: "Hunter",
       typeName: "hunter",
       innerCategories: [
-        { title: "General", typeName: "hunter", changes: [
-          {
-          text: "New Spell: Explosive Arrow. Launches an explosive trap at the target location",
-          explanation: "",
-          },] },
+        { title: "General", typeName: "hunter", changes:
+          [
+            {
+              text: "New Spell: Explosive Arrow. Launches an explosive trap at the target location",
+              explanation: "",
+            },
+            {
+              text: "Grace of the Mantis now reduces chance to be critically struck by 3/6% up from 2/4%",
+              explanation: "",
+            },
+          ]
+        },
         {
           title: "Beast Mastery",
           typeName: "hunter",
@@ -825,6 +856,7 @@ function PatchNotes(): ChangeCategory[] {
           title: "Sublety",
           typeName: "rogue",
           changes: [
+            { text: "Sleight of Hand now gives 3/6% reduced chance to be critically hit, up from 2/4%", explanation: "" },
             {
               text: "New Talent - Improved Hemorrhage:  Now gain between 2 and 25 energy when a charge of hemorrhage is expended, depending on group size",
               explanation: "",
@@ -890,7 +922,18 @@ function PatchNotes(): ChangeCategory[] {
       title: "Warlock",
       typeName: "warlock",
       innerCategories: [
-        { title: "General", typeName: "warlock", changes: [] },
+      { title: "General", typeName: "warlock", changes:
+        [
+          {
+            text: "Torment now generates more threat",
+            explanation: "",
+          },
+          {
+            text: "Anguish now generates more threat",
+            explanation: "",
+          }
+        ] 
+      },
         {
           title: "Affliction",
           typeName: "warlock",
@@ -899,7 +942,12 @@ function PatchNotes(): ChangeCategory[] {
         {
           title: "Demonology",
           typeName: "warlock",
-          changes: [],
+          changes: [
+            {
+              text: "Demonic Resilience reduces the chance your pet is critically struck by 2/4/6% up from 1/2/3%",
+              explanation: "",
+            },
+          ],
         },
         { title: "Destruction", typeName: "warlock", changes: [{
           text: "Empowered Imp now also increases your imp's critical strike chance by 5/10/15%",
