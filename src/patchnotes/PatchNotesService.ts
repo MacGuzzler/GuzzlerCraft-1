@@ -255,11 +255,6 @@ function PatchNotes(): ChangeCategory[] {
                 "Deep Wounds, Ignite, Piercing Shots etc. will work properly, resulting in more damage (was also fixed in classic wrath)",
             },
             {
-              text: "Heroic Presence is now a raid wide buff",
-              explanation:
-                "Deep Wounds, Ignite, Piercing Shots etc. will work properly, resulting in more damage (was also fixed in classic wrath)",
-            },
-            {
               text: "Lord Kazzak once again terrorizes the Blasted Lands",
               explanation: "",
             },
@@ -381,6 +376,11 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "Gift of the Naaru now also reduces the target's damage taken by 10% while active",
               explanation: ""
+            },
+            {
+              text: "Heroic Presence is now a raid wide buff",
+              explanation:
+                "",
             }
           ]
         },
