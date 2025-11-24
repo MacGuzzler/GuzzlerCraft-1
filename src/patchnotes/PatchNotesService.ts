@@ -180,6 +180,14 @@ function PatchNotes(): ChangeCategory[] {
             {
               text: "The Death Knight Tank Tier 8 4 piece bonus now causes you to gain 30% damage reduction for 5 seconds",
               explanation: "",
+            },
+            {
+              text: "Strength based Kirin Tor signets and Strength DPS Ashen Verdict rings have their strength increased by 10",
+              explanation: "These items sim slightly under the agility rings, even for strength users",
+            },
+            {
+              text: "Zul Aman once again drops an Amani War Bear if you beat all the timers",
+              explanation: "",
             }
           ],
         },
